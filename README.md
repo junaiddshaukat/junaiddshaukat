@@ -46,12 +46,19 @@
 <hr/>
 
 <div align="center">
-  <a href="https://github-readme-stats.vercel.app/api?username=Junaid-Shaukat&show_icons=true&theme=swift-blue">
+<!--   <a href="https://github-readme-stats.vercel.app/api?username=Junaid-Shaukat&show_icons=true&theme=swift-blue">
     <img src="https://github-readme-stats.vercel.app/api?username=Junaid-Shaukat&show_icons=true&theme=swift-blue" alt="Junaid's GitHub Stats" />
-  </a>
+  </a> 
+    
+    ![Junaid-Shaukat's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Junaid-Shaukat&theme=dark&show_icons=true&hide_border=true&layout=compact)
+    -->
   <a href="junaidshaukat.tech">
     <img src="https://streak-stats.demolab.com?user=Junaid-Shaukat&card_height=194.5" alt="GitHub Streak" />
   </a>
+
+![Junaid-Shaukat's Stats](https://github-readme-stats.vercel.app/api?username=Junaid-Shaukat&theme=dark&show_icons=true&hide_border=true&count_private=true)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Junaid-Shaukat&theme=dark&hide_border=true)](https://git.io/streak-stats)
 </div>
 
 
