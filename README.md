@@ -8,12 +8,12 @@
 <div>
     
  - 👨‍💻 I’m a Software Engineer from Pakistan 🇵🇰
-    
-- 🔭 I’m currently working on **SWE Fellowship**
+    v
+- 🔭 I’m currently working on **Next js**
 
  - 👯 I’m ready to collaborate on **open-source projects**
  
-- 🌱 I’m currently learning **Next js, MERN, C++**
+- 🌱 I’m currently learning **Next js, DevOps, C++**
 
 - 💬 Ask me about **Next js, C++ or anything [here](https://www.linkedin.com/in/junaid-shaukat-ba44492a7/)**
 
