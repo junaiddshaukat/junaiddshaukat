@@ -8,7 +8,7 @@
 <div>
     
  - 👨‍💻 I’m a Software Engineer from Pakistan 🇵🇰
-    v
+    
 - 🔭 I’m currently working on **Next js**
 
  - 👯 I’m ready to collaborate on **open-source projects**
