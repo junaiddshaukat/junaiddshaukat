@@ -10,7 +10,7 @@ Software Engineer
 * 🌍  I'm based in Pakistan
 * 🖥️  See my portfolio at [junaidshaukat.tech](http://junaidshaukat.tech)
 * ✉️  You can contact me at [junaidshaukat546@gmail.com](mailto:junaidshaukat546@gmail.com)
-* 🧠  I'm learning Next js, C++ and DevOps
+* 🧠  I'm learning RUST.
 * 🤝  I'm open to collaborating on any good project
 
 
