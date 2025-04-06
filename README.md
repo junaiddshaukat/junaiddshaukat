@@ -1,10 +1,9 @@
-# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Junaid Shaukat
+h# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Junaid Shaukat
 
 <img src="https://komarev.com/ghpvc/?username=Junaid-Shaukat&label=Profile%20views&color=0e75b6&style=flat" alt="Junaid-Shaukat" />
 
 Software Engineer
 -----------------
-<img align="right" alt="coding" height="180" style="border-radius: 1rem;" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" />
 
 
 * 🌍  I'm based in Pakistan
