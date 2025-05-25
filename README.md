@@ -39,36 +39,16 @@ const junaid = {
 </div>
 
 ---
-
-
-## 🛠️ Tech Arsenal
-
+🛠️ Tech Arsenal
 <div align="center">
-
-### 🎯 Frontend Mastery
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,html,css,sass,tailwind,bootstrap&perline=9" />
-
-### ⚡ Backend Power
-<img src="https://skillicons.dev/icons?i=nodejs,express,graphql,mongodb,postgres,firebase&perline=6" />
-
-### 🔧 Tools & Platforms
-<img src="https://skillicons.dev/icons?i=git,vscode,docker,aws,gcp,figma,linux&perline=7" />
-
-### 🤖 AI & Modern Stack
-<img src="https://img.shields.io/badge/Qwik-AC7EF4?style=for-the-badge&logo=qwik&logoColor=white" />
-<img src="https://img.shields.io/badge/Vendure-6366F1?style=for-the-badge&logo=v&logoColor=white" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-
-### 🚀 AI Coding Tools
-<img src="https://img.shields.io/badge/Bolt.new-FF6B6B?style=for-the-badge&logo=bolt&logoColor=white" />
-<img src="https://img.shields.io/badge/Lovable.dev-FF69B4?style=for-the-badge&logo=heart&logoColor=white" />
-<img src="https://img.shields.io/badge/Cursor_AI-000000?style=for-the-badge&logo=cursor&logoColor=white" />
-<img src="https://img.shields.io/badge/Replit_AI-667881?style=for-the-badge&logo=replit&logoColor=white" />
-
-### 🌟 Currently Exploring
-<img src="https://skillicons.dev/icons?i=rust" />
-
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,html,css,sass,tailwind,bootstrap,nodejs,express,graphql,mongodb,postgres,firebase,git,vscode,docker,aws,gcp,figma,linux,rust,mysql&perline=12" /><br/>
+  <img src="https://img.shields.io/badge/Qwik-AC7EF4?style=for-the-badge&logo=qwik&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vendure-6366F1?style=for-the-badge&logo=v&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bolt.new-FF6B6B?style=for-the-badge&logo=bolt&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lovable.dev-FF69B4?style=for-the-badge&logo=heart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor_AI-000000?style=for-the-badge&logo=cursor&logoColor=white" />
+  <img src="https://img.shields.io/badge/Replit_AI-667881?style=for-the-badge&logo=replit&logoColor=white" />
 </div>
 
 
@@ -79,10 +59,7 @@ const junaid = {
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=junaiddshaukat&stroke=ffffff&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=ffffff&currStreakLabel=58a6ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" />
 </div>
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=junaiddshaukat&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-</div>
----
+
 
 ## 🏆 Achievements & Stats
 
