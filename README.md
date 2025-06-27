@@ -17,7 +17,7 @@
 ```typescript
 const junaid = {
     location: "Pakistan 🇵🇰",
-    currentFocus: "Learning RUST 🦀 and New Tech",
+    currentFocus: "Learning new tech",
     portfolio: "junaidshaukat.tech",
     email: "junaidshaukat546@gmail.com",
     openToWork: true,
@@ -69,24 +69,7 @@ const junaid = {
 
 ---
 
-## 💡 Fun Facts & Interests
 
-<div align="center">
-
-```javascript
-const funFacts = {
-    🌱 currentlyLearning: "Rust Programming Language",
-    🎯 goal2024: "Contribute to 4+ open source projects",
-    ☕ fuelOfChoice: "Chai",
-    🎵 codingPlaylist: "NULL",
-    🎮 whenNotCoding: "Gaming, کسی را به خاطر بسپار",
-    🌍 dreamProject: "Building tools that impact millions"
-};
-```
-
-</div>
-
----
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=fadeIn" />
