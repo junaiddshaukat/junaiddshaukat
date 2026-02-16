@@ -18,7 +18,7 @@
 const junaid = {
     location: "Pakistan 🇵🇰",
     currentFocus: "Learning new tech",
-    portfolio: "junaidshaukat.tech",
+    portfolio: "https://junaidshaukat.com/",
     email: "junaidshaukat546@gmail.com",
     openToWork: true,
     passion: ["Clean Code", "Innovation", "Problem Solving"],
