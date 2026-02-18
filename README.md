@@ -1,81 +1,105 @@
-# 👋 Hey there! I'm Junaid Shaukat
+<h1 align="center">Muhammad Junaid Shaukat</h1>
+
+<p align="center">
+  <strong>Software Engineer &nbsp;|&nbsp; Open Source Contributor &nbsp;</strong>
+</p>
+
+<p align="center">
+  <a href="https://junaidshaukat.com">junaidshaukat.com</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.linkedin.com/in/junaiddshaukat">LinkedIn</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.x.com/junaiddshaukat">X / Twitter</a> &nbsp;&middot;&nbsp;
+  <a href="mailto:junaidshaukat546@gmail.com">Email</a>
+</p>
+
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer;Software+Engineer;Open+Source+Enthusiast;Problem+Solver;Always+Learning+New+Things!" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="30px"/>
   <img src="https://komarev.com/ghpvc/?username=Junaid-Shaukat&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/junaiddshaukat?label=Followers&style=social" alt="GitHub Followers" />
 </div>
 
 ---
 
-## 🚀 About Me
+### About
 
-```typescript
-const junaid = {
-    location: "Pakistan 🇵🇰",
-    currentFocus: "Learning new tech",
-    portfolio: "https://junaidshaukat.com/",
-    email: "junaidshaukat546@gmail.com",
-    openToWork: true,
-    passion: ["Clean Code", "Innovation", "Problem Solving"],
-    motto: "To Empower Pakistan Globally 💻✨"
-};
-```
-## 🤝 Let's Connect & Collaborate
-
-<div align="center">
-  
-<p> <a href="https://www.github.com/junaiddshaukat" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="http://www.instagram.com/junaiddshaukat" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/junaiddshaukat" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="http://www.medium.com/junaiddshaukat" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /> </picture> </a> <a href="https://www.x.com/junaiddshaukat" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a> <a href="https://www.youtube.com/@junaiddshaukat" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /> </picture> </a> <a href="https://www.threads.net/@junaiddshaukat" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg" width="32" height="32" /> </picture> </a></p>
-
-</div>
-
----
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=junaiddshaukat&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f0f6fc&area=true&hide_border=true" alt="GitHub Activity Graph"/>
-</div>
-
----
-🛠️ Tech Arsenal
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,html,css,sass,tailwind,bootstrap,nodejs,express,graphql,mongodb,postgres,firebase,git,vscode,docker,aws,gcp,figma,linux,rust,mysql&perline=12" /><br/>
-  <img src="https://img.shields.io/badge/Qwik-AC7EF4?style=for-the-badge&logo=qwik&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vendure-6366F1?style=for-the-badge&logo=v&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bolt.new-FF6B6B?style=for-the-badge&logo=bolt&logoColor=white" />
-  <img src="https://img.shields.io/badge/Lovable.dev-FF69B4?style=for-the-badge&logo=heart&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cursor_AI-000000?style=for-the-badge&logo=cursor&logoColor=white" />
-  <img src="https://img.shields.io/badge/Replit_AI-667881?style=for-the-badge&logo=replit&logoColor=white" />
-</div>
-
+AI Software Engineer at Turing with a focus on distributed systems, AI/ML infrastructure, and open source. I contribute to projects at the Apache Software Foundation, CNCF, and other organizations. I build with TypeScript, Python, Java, and Go across the full stack.
 
 ---
 
-## 📊 GitHub Analytics
+## Open Source Contributions
+
+| Project | Stars | Forks | Contributions |
+| --- | --- | --- | --- |
+| [![apache/beam](https://img.shields.io/badge/apache-beam-blue?style=flat-square)](https://github.com/apache/beam) | ![Stars](https://img.shields.io/github/stars/apache/beam?style=flat-square) | ![Forks](https://img.shields.io/github/forks/apache/beam?style=flat-square) | [Pull Requests](https://github.com/apache/beam/pulls?q=is%3Apr+author%3Ajunaiddshaukat) \| [Issues](https://github.com/apache/beam/issues?q=is%3Aissue+author%3Ajunaiddshaukat) |
+| [![apache/airflow](https://img.shields.io/badge/apache-airflow-blue?style=flat-square)](https://github.com/apache/airflow) | ![Stars](https://img.shields.io/github/stars/apache/airflow?style=flat-square) | ![Forks](https://img.shields.io/github/forks/apache/airflow?style=flat-square) | [Pull Requests](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Ajunaiddshaukat) \| [Issues](https://github.com/apache/airflow/issues?q=is%3Aissue+author%3Ajunaiddshaukat) |
+| [![jaegertracing/jaeger](https://img.shields.io/badge/jaegertracing-jaeger-blue?style=flat-square)](https://github.com/jaegertracing/jaeger) | ![Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=flat-square) | ![Forks](https://img.shields.io/github/forks/jaegertracing/jaeger?style=flat-square) | [Pull Requests](https://github.com/jaegertracing/jaeger/pulls?q=is%3Apr+author%3Ajunaiddshaukat) \| [Issues](https://github.com/jaegertracing/jaeger/issues?q=is%3Aissue+author%3Ajunaiddshaukat) |
+| [![PalisadoesFoundation/talawa-admin](https://img.shields.io/badge/palisadoes-talawa--admin-blue?style=flat-square)](https://github.com/PalisadoesFoundation/talawa-admin) | ![Stars](https://img.shields.io/github/stars/PalisadoesFoundation/talawa-admin?style=flat-square) | ![Forks](https://img.shields.io/github/forks/PalisadoesFoundation/talawa-admin?style=flat-square) | [Pull Requests](https://github.com/PalisadoesFoundation/talawa-admin/pulls?q=is%3Apr+author%3Ajunaiddshaukat) \| [Issues](https://github.com/PalisadoesFoundation/talawa-admin/issues?q=is%3Aissue+author%3Ajunaiddshaukat) |
+| [![archestra-ai/archestra](https://img.shields.io/badge/archestra--ai-archestra-blue?style=flat-square)](https://github.com/archestra-ai/archestra) | ![Stars](https://img.shields.io/github/stars/archestra-ai/archestra?style=flat-square) | ![Forks](https://img.shields.io/github/forks/archestra-ai/archestra?style=flat-square) | [Pull Requests](https://github.com/archestra-ai/archestra/pulls?q=is%3Apr+author%3Ajunaiddshaukat) \| [Issues](https://github.com/archestra-ai/archestra/issues?q=is%3Aissue+author%3Ajunaiddshaukat) |
+| [![CCExtractor/ccsync](https://img.shields.io/badge/CCExtractor-ccsync-blue?style=flat-square)](https://github.com/CCExtractor/ccsync) | ![Stars](https://img.shields.io/github/stars/CCExtractor/ccsync?style=flat-square) | ![Forks](https://img.shields.io/github/forks/CCExtractor/ccsync?style=flat-square) | [Pull Requests](https://github.com/CCExtractor/ccsync/pulls?q=is%3Apr+author%3Ajunaiddshaukat) \| [Issues](https://github.com/CCExtractor/ccsync/issues?q=is%3Aissue+author%3Ajunaiddshaukat) |
+| [![dailydotdev/apps](https://img.shields.io/badge/dailydotdev-apps-blue?style=flat-square)](https://github.com/dailydotdev/apps) | ![Stars](https://img.shields.io/github/stars/dailydotdev/apps?style=flat-square) | ![Forks](https://img.shields.io/github/forks/dailydotdev/apps?style=flat-square) | [Pull Requests](https://github.com/dailydotdev/apps/pulls?q=is%3Apr+author%3Ajunaiddshaukat) \| [Issues](https://github.com/dailydotdev/apps/issues?q=is%3Aissue+author%3Ajunaiddshaukat) |
+| [![mfts/papermark](https://img.shields.io/badge/mfts-papermark-blue?style=flat-square)](https://github.com/mfts/papermark) | ![Stars](https://img.shields.io/github/stars/mfts/papermark?style=flat-square) | ![Forks](https://img.shields.io/github/forks/mfts/papermark?style=flat-square) | [Pull Requests](https://github.com/mfts/papermark/pulls?q=is%3Apr+author%3Ajunaiddshaukat) \| [Issues](https://github.com/mfts/papermark/issues?q=is%3Aissue+author%3Ajunaiddshaukat) |
+| [![accomplish-ai/accomplish](https://img.shields.io/badge/accomplish--ai-accomplish-blue?style=flat-square)](https://github.com/accomplish-ai/accomplish) | ![Stars](https://img.shields.io/github/stars/accomplish-ai/accomplish?style=flat-square) | ![Forks](https://img.shields.io/github/forks/accomplish-ai/accomplish?style=flat-square) | [Pull Requests](https://github.com/accomplish-ai/accomplish/pulls?q=is%3Apr+author%3Ajunaiddshaukat) \| [Issues](https://github.com/accomplish-ai/accomplish/issues?q=is%3Aissue+author%3Ajunaiddshaukat) |
+
+---
+
+## Tech Stack
+
+<table>
+  <tr>
+    <td><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=ts,js,python,java,go" /></td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,sass" /></td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,express,graphql" /></td>
+  </tr>
+  <tr>
+    <td><b>Data & Infra</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,firebase,kafka" /></td>
+  </tr>
+  <tr>
+    <td><b>DevOps & Cloud</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,linux,git" /></td>
+  </tr>
+</table>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=junaiddshaukat&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=junaiddshaukat&show_icons=true&hide_border=true&count_private=true" />
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=junaiddshaukat&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=junaiddshaukat&layout=compact&hide_border=true&langs_count=8" />
+  </picture>
+</div>
+
+<br/>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=junaiddshaukat&stroke=ffffff&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=ffffff&currStreakLabel=58a6ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" />
 </div>
 
-
-## 🏆 Achievements & Stats
+<br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=junaiddshaukat&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=junaiddshaukat&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f0f6fc&area=true&hide_border=true" alt="GitHub Activity Graph"/>
 </div>
 
 ---
 
+<p align="center">
+  <a href="https://junaidshaukat.com">Portfolio</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.linkedin.com/in/junaiddshaukat">LinkedIn</a> &nbsp;&middot;&nbsp;
+  <a href="mailto:junaidshaukat546@gmail.com">junaidshaukat546@gmail.com</a>
+</p>
 
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=fadeIn" />
-  
-  ### 💻 "Code is the closest thing we have to magic" ✨
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!;Let's+build+something+amazing+together!;Open+to+new+opportunities!" alt="Footer Typing"/>
-  
 </div>
