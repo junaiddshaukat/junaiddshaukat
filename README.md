@@ -21,7 +21,7 @@
 
 ### About
 
-Software Engineer with a focus on distributed systems, AI/ML infrastructure, AI Engineering, and open source. I contribute to projects at the Apache Software Foundation, CNCF, and other organizations. I build with TypeScript, Python, Java, and Go across the full stack.
+Software Engineer with a focus on distributed systems, AI/ML infrastructure, AI Engineering, and open source. I contribute to projects at the Apache Software Foundation, CNCF, and other organizations. I build with TypeScript, Python, Java, and Go across the full stack. I also love to do Agentic Development aka Vibe Engineering :)
 
 ---
 
