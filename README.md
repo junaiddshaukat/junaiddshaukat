@@ -1,7 +1,7 @@
 <h1 align="center">Muhammad Junaid Shaukat</h1>
 
 <p align="center">
-  <strong>Software Engineer &nbsp;|&nbsp; Open Source Contributor &nbsp;</strong>
+  <strong>AI Software Engineer &nbsp;|&nbsp; Open Source Contributor &nbsp; |&nbsp; AI Augmented Engineer &nbsp;</strong>
 </p>
 
 <p align="center">
