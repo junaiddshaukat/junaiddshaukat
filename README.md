@@ -36,7 +36,7 @@ Currently:
 
 | Project | What it is | Traction |
 | --- | --- | --- |
-| [isDisposable](https://isdisposable.com) | Disposable-email detection API + offline package | 7.3k+ npm, 700+ PyPI, 160k+ domains indexed |
+| [isDisposable](https://isdisposable.com) | Disposable-email detection API + offline package | 23k+ npm, 850+ PyPI, 160k+ domains indexed |
 | [reqcraft](https://github.com/junaiddshaukat/reqcraft) | 3kb zero-dependency axios alternative on native fetch | Built the week of the axios supply-chain attack |
 | [QueryMaster](https://github.com/junaiddshaukat/querymaster) | MCP server to query any SQL database in natural language | MCP / AI |
 | [revise-deps](https://www.npmjs.com/package/revise-deps) | CLI to audit & update Node.js dependencies | npm |
