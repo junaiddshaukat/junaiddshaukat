@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Rebuilds everything on the profile that is a number: the header and stats
-// cards in assets/, plus the open-source table and inline stats in README.md.
+// Rebuilds everything on the profile that is a number: the stats cards in
+// assets/, plus the open-source table and inline stats in README.md.
 // .github/workflows/refresh.yml runs it once a day.
 //
 //   GITHUB_TOKEN=$(gh auth token) node scripts/refresh.mjs
@@ -20,7 +20,7 @@ const PROJECTS = [
     name: "Apache Beam",
     owner: "apache",
     repos: ["apache/beam"],
-    note: "GSoC 2026. Wrote the portable Kafka Streams runner: Beam pipeline protos in, Kafka Streams topologies out, on the Fn API so pipelines from any Beam SDK run on it. Ships in the nightly snapshots.",
+    note: "Wrote the portable Kafka Streams runner, so pipelines from any Beam SDK run on Kafka Streams. Ships in the nightly snapshots.",
   },
   {
     name: "InsForge",
@@ -74,7 +74,7 @@ const PROJECTS = [
     name: "Cognee",
     owner: "topoteretes",
     repos: ["topoteretes/cognee"],
-    note: "An incremental Gmail connector for the agent memory layer. Also won their PR hackathon.",
+    note: "An incremental Gmail connector for the agent memory layer.",
   },
   {
     name: "Jaeger",
@@ -86,13 +86,6 @@ const PROJECTS = [
 
 // Work that never shows up as a merged PR on GitHub.
 const EXTRA_ROWS = [
-  {
-    name: "Kubernetes",
-    href: "https://github.com/kubernetes/sig-release",
-    img: "https://github.com/kubernetes.png?size=64",
-    count: "release team",
-    note: "Release Signal Shadow for v1.37. Tracked CI signal, flaky tests and release blockers across SIGs.",
-  },
   {
     name: "Linux kernel",
     href: "https://www.kernel.org",
@@ -222,155 +215,6 @@ function liveDot(t, x, y) {
   return `<circle class="ping" cx="${x}" cy="${y}" r="3.5" fill="${t.accent}"/><circle cx="${x}" cy="${y}" r="3.5" fill="${t.accent}"/>`;
 }
 
-/* ── Header card ──────────────────────────────────────────────────────── */
-
-function renderHeader(t, stats, avatar) {
-  const W = 1200;
-  const H = 410;
-  const CH = 12; // advance of a 20px monospace glyph; textLength pins every font to it
-
-  const lines = [
-    "wrote Apache Beam's Kafka Streams runner for GSoC '26",
-    `got ${stats.merged} PRs merged into projects I don't own`,
-    "shipped blyn, an AI money coach, to the App Store",
-    "built Divisio: every coding agent in one window",
-    "started Qwen Pakistan from an empty page",
-    "ran the first RevenueCat Shipaton in Pakistan",
-  ];
-
-  const box = { x: 64, y: 248, w: 760, h: 58 };
-  const textX = 112;
-  const baseline = box.y + 36;
-  const seconds = lines.length * 4;
-  const slot = 100 / lines.length;
-
-  let typingCss = "";
-  let typing = "";
-
-  lines.forEach((line, i) => {
-    const width = line.length * CH;
-    const start = i * slot;
-    const typed = start + slot * 0.45;
-    const hide = start + slot * 0.94;
-
-    // Each line owns one slot of the loop: typed out a character per step,
-    // held, then swapped for the next. A cover the colour of the terminal
-    // slides off the text, and the cursor rides its leading edge.
-    const visible = [
-      start > 0 && `0%, ${pct(start)} { opacity: 0; }`,
-      `${pct(start + 0.001)}, ${pct(hide)} { opacity: 1; }`,
-      `${pct(hide + 0.001)}, 100% { opacity: 0; }`,
-    ];
-    const reveal = [
-      start > 0 && `0% { transform: translateX(0px); animation-timing-function: step-end; }`,
-      `${pct(start)} { transform: translateX(0px); animation-timing-function: steps(${line.length}, end); }`,
-      `${pct(typed)} { transform: translateX(${width}px); animation-timing-function: step-end; }`,
-      `100% { transform: translateX(${width}px); }`,
-    ];
-
-    typingCss += `
-  .line${i} { opacity: ${i === 0 ? 1 : 0}; animation: line${i} ${seconds}s linear infinite; }
-  .reveal${i} { transform: translateX(${i === 0 ? width : 0}px); animation: reveal${i} ${seconds}s linear infinite; }
-  @keyframes line${i} { ${visible.filter(Boolean).join(" ")} }
-  @keyframes reveal${i} { ${reveal.filter(Boolean).join(" ")} }`;
-
-    typing += `
-      <g class="line${i}">
-        <text x="${textX}" y="${baseline}" class="mono" font-size="20" fill="${t.fg}" textLength="${width}" lengthAdjust="spacingAndGlyphs">${esc(line)}</text>
-        <g class="reveal${i}">
-          <rect x="${textX}" y="${box.y + 6}" width="${box.w}" height="${box.h - 12}" fill="${t.surface}"/>
-          <rect class="blink" x="${textX + 1}" y="${baseline - 18}" width="10" height="23" rx="1.5" fill="${t.accent}"/>
-        </g>
-      </g>`;
-  });
-
-  const chipLabels = [
-    "GSoC '26 · Apache Beam",
-    "Kubernetes v1.37 Release Team",
-    "Qwen Ambassador",
-    `${stats.merged} PRs merged upstream`,
-  ];
-  let chipX = 64;
-  const chips = chipLabels
-    .map((label) => {
-      const textWidth = label.length * 7.2;
-      const w = textWidth + 40;
-      const chip = `
-      <g>
-        <rect x="${chipX}" y="336" width="${w}" height="30" rx="15" fill="${t.surface}" stroke="${t.border}"/>
-        <circle cx="${chipX + 16}" cy="351" r="3" fill="${t.accent}"/>
-        <text x="${chipX + 27}" y="355.5" class="mono" font-size="12" fill="${t.muted}" textLength="${textWidth}" lengthAdjust="spacingAndGlyphs">${esc(label)}</text>
-      </g>`;
-      chipX += w + 10;
-      return chip;
-    })
-    .join("");
-
-  const av = { cx: 1030, cy: 208, r: 104 };
-
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="title">
-  <title id="title">Muhammad Junaid Shaukat. I build software people use. Most of it is open source.</title>
-  <style>${sharedCss}${typingCss}
-  .orbit { transform-origin: ${av.cx}px ${av.cy}px; animation: spin 9s linear infinite; }
-  .orbit-slow { transform-origin: ${av.cx}px ${av.cy}px; animation: spin 60s linear infinite reverse; }
-  @keyframes spin { to { transform: rotate(360deg); } }${reducedMotion()}
-  </style>
-  <defs>
-    <clipPath id="card"><rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16"/></clipPath>
-    <clipPath id="terminal"><rect x="${textX - 2}" y="${box.y + 1}" width="${box.x + box.w - textX - 10}" height="${box.h - 2}"/></clipPath>
-    <clipPath id="avatar"><circle cx="${av.cx}" cy="${av.cy}" r="${av.r}"/></clipPath>
-    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="${t.dot}"/></pattern>
-    <radialGradient id="fade" cx="0.85" cy="0.42" r="0.6"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
-    <mask id="dotmask"><rect width="${W}" height="${H}" fill="url(#fade)"/></mask>
-    <radialGradient id="glow"><stop offset="0" stop-color="${t.accent}" stop-opacity="0.26"/><stop offset="1" stop-color="${t.accent}" stop-opacity="0"/></radialGradient>
-  </defs>
-
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.bg}" stroke="${t.border}"/>
-  <g clip-path="url(#card)">
-    <rect y="53" width="${W}" height="${H - 53}" fill="url(#dots)" mask="url(#dotmask)"/>
-    <circle cx="${av.cx}" cy="${av.cy}" r="220" fill="url(#glow)"/>
-  </g>
-
-  <circle cx="30" cy="27" r="6" fill="#ff5f57"/>
-  <circle cx="50" cy="27" r="6" fill="#febc2e"/>
-  <circle cx="70" cy="27" r="6" fill="#28c840"/>
-  <text x="${W / 2}" y="31.5" text-anchor="middle" class="mono" font-size="13" fill="${t.subtle}">junaid@github: ~</text>
-  <line x1="0.5" x2="${W - 0.5}" y1="53.5" y2="53.5" stroke="${t.border}"/>
-
-  <g class="rise" style="animation-delay: 0.05s">
-    ${liveDot(t, 70, 105)}
-    <text x="84" y="109.5" class="mono" font-size="13" letter-spacing="2" fill="${t.subtle}">AI ENGINEER · OPEN SOURCE · COMMUNITY</text>
-  </g>
-
-  <g class="rise" style="animation-delay: 0.15s">
-    <text x="62" y="176" class="sans" font-size="58" font-weight="700" letter-spacing="-1.6" fill="${t.fg}">Muhammad Junaid Shaukat</text>
-  </g>
-
-  <g class="rise" style="animation-delay: 0.25s">
-    <text x="64" y="219" class="sans" font-size="22" fill="${t.muted}">I build software people use. Most of it is open source.</text>
-  </g>
-
-  <g class="rise" style="animation-delay: 0.35s">
-    <rect x="${box.x}" y="${box.y}" width="${box.w}" height="${box.h}" rx="10" fill="${t.surface}" stroke="${t.border}"/>
-    <path d="M86 ${baseline - 14} l8 7.5 -8 7.5" fill="none" stroke="${t.accent}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <g clip-path="url(#terminal)">${typing}
-    </g>
-  </g>
-
-  <g class="rise" style="animation-delay: 0.45s">${chips}
-  </g>
-
-  <g class="rise" style="animation-delay: 0.2s">
-    <circle class="orbit-slow" cx="${av.cx}" cy="${av.cy}" r="${av.r + 24}" fill="none" stroke="${t.border}" stroke-width="1.5" stroke-dasharray="2 8" stroke-linecap="round"/>
-    <circle class="orbit" cx="${av.cx}" cy="${av.cy}" r="${av.r + 12}" fill="none" stroke="${t.accent}" stroke-width="2.5" stroke-dasharray="70 660" stroke-linecap="round"/>
-    <image href="data:image/jpeg;base64,${avatar}" x="${av.cx - av.r}" y="${av.cy - av.r}" width="${av.r * 2}" height="${av.r * 2}" clip-path="url(#avatar)" preserveAspectRatio="xMidYMid slice"/>
-    <circle cx="${av.cx}" cy="${av.cy}" r="${av.r}" fill="none" stroke="${t.border}"/>
-    <text x="${av.cx}" y="${av.cy + av.r + 70}" text-anchor="middle" class="mono" font-size="12" letter-spacing="1" fill="${t.subtle}">based in Pakistan</text>
-  </g>
-</svg>
-`;
-}
-
 /* ── Stats card ───────────────────────────────────────────────────────── */
 
 function renderStats(t, stats, date) {
@@ -381,7 +225,7 @@ function renderStats(t, stats, date) {
 
   const cells = [
     { value: stats.merged, label: "PRs merged upstream", sub: `across ${stats.repos} repositories` },
-    { value: stats.beam, label: "of them into Apache Beam", sub: "GSoC '26 · Kafka Streams runner" },
+    { value: stats.beam, label: "of them into Apache Beam", sub: "the Kafka Streams runner" },
     { value: stats.orgs, label: "open-source orgs", sub: "Apache, InsForge, webpack…" },
     { value: compact(stats.npmTotal), label: "npm downloads", sub: `across ${NPM_PACKAGES.length} packages` },
   ];
@@ -514,10 +358,8 @@ const stats = {
 };
 console.log(stats);
 
-const avatar = (await readFile(path.join(ROOT, "assets/avatar.jpg"))).toString("base64");
 
 for (const [name, theme] of Object.entries(THEMES)) {
-  await update(`assets/header-${name}.svg`, () => renderHeader(theme, stats, avatar));
   await update(`assets/stats-${name}.svg`, (date) => renderStats(theme, stats, date));
 }
 await update("README.md", (_, prev) => renderReadme(prev, stats, counts));
