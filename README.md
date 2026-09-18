@@ -40,7 +40,7 @@ Claude Code, Codex, Cursor, Grok and five more agents in one window. Each gets i
 
 Throwaway email detection. 160,000 domains, live DNS checks, a risk score. There's an API, plus offline SDKs for npm and PyPI for when you can't make a network call.
 
-<sub>🟢 <!--stat:isdisposable_npm-->54.1k<!--/stat--> npm downloads · <a href="https://isdisposable.com">Website ↗</a> · <a href="https://github.com/isdisposable/js">SDK ↗</a></sub>
+<sub>🟢 <!--stat:isdisposable_npm-->55.8k<!--/stat--> npm downloads · <a href="https://isdisposable.com">Website ↗</a> · <a href="https://github.com/isdisposable/js">SDK ↗</a></sub>
 
 </td>
 <td width="50%" valign="top">
