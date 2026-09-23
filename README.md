@@ -40,7 +40,7 @@ Claude Code, Codex, Cursor, Grok and five more agents in one window. Each gets i
 
 Throwaway email detection. 160,000 domains, live DNS checks, a risk score. There's an API, plus offline SDKs for npm and PyPI for when you can't make a network call.
 
-<sub>🟢 <!--stat:isdisposable_npm-->57.3k<!--/stat--> npm downloads · <a href="https://isdisposable.com">Website ↗</a> · <a href="https://github.com/isdisposable/js">SDK ↗</a></sub>
+<sub>🟢 <!--stat:isdisposable_npm-->57.9k<!--/stat--> npm downloads · <a href="https://isdisposable.com">Website ↗</a> · <a href="https://github.com/isdisposable/js">SDK ↗</a></sub>
 
 </td>
 <td width="50%" valign="top">
@@ -85,7 +85,7 @@ Rebuilt every day from the GitHub API, so nothing here is typed by hand.
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Project | Merged | What I did |
 | :-: | :-- | :-: | :-- |
-| <img src="https://github.com/apache.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/apache/beam"><b>Apache&nbsp;Beam</b></a> | [42](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3Aapache%2Fbeam) | Wrote the portable Kafka Streams runner, so pipelines from any Beam SDK run on Kafka Streams. Ships in the nightly snapshots. |
+| <img src="https://github.com/apache.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/apache/beam"><b>Apache&nbsp;Beam</b></a> | [43](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3Aapache%2Fbeam) | Wrote the portable Kafka Streams runner, so pipelines from any Beam SDK run on Kafka Streams. Ships in the nightly snapshots. |
 | <img src="https://github.com/InsForge.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/InsForge/InsForge"><b>InsForge</b></a> | [12](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3AInsForge%2FInsForge%20repo%3AInsForge%2FInsForge-sdk-js%20repo%3AInsForge%2Finsforge-swift%20repo%3AInsForge%2Finsforge-kotlin) | Custom OAuth providers end to end, then carried into the JS, Swift and Kotlin SDKs. Signup controls, PostgREST operators for Kotlin, dashboard fixes. |
 | <img src="https://github.com/archestra-ai.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/archestra-ai/archestra"><b>Archestra</b></a> | [6](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3Aarchestra-ai%2Farchestra) | Enterprise MCP gateway. Added the Mistral, Cerebras, DeepSeek and Perplexity providers, and fixed Kubernetes service names for long MCP server names. |
 | <img src="https://github.com/PalisadoesFoundation.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/PalisadoesFoundation/talawa-admin"><b>Talawa&nbsp;Admin</b></a> | [6](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3APalisadoesFoundation%2Ftalawa-admin) | Built the i18n notification toast and moved the app onto it. Turned on advanced tree-shaking in Vite; the bundle got 30% smaller. |
