@@ -40,7 +40,7 @@ Claude Code, Codex, Cursor, Grok and five more agents in one window. Each gets i
 
 Throwaway email detection. 160,000 domains, live DNS checks, a risk score. There's an API, plus offline SDKs for npm and PyPI for when you can't make a network call.
 
-<sub>🟢 <!--stat:isdisposable_npm-->57.9k<!--/stat--> npm downloads · <a href="https://isdisposable.com">Website ↗</a> · <a href="https://github.com/isdisposable/js">SDK ↗</a></sub>
+<sub>🟢 <!--stat:isdisposable_npm-->60.1k<!--/stat--> npm downloads · <a href="https://isdisposable.com">Website ↗</a> · <a href="https://github.com/isdisposable/js">SDK ↗</a></sub>
 
 </td>
 <td width="50%" valign="top">
@@ -49,7 +49,7 @@ Throwaway email detection. 160,000 domains, live DNS checks, a risk score. There
 
 Run `tkntracker web` and see how many tokens you burn across Claude Code, Codex, Cursor, Grok, OpenCode and 19 more agents. It reads local logs only. No account, no API keys.
 
-<sub>🟢 <!--stat:tkntracker_npm-->230<!--/stat--> npm downloads · <a href="https://www.npmjs.com/package/tkntracker">npm ↗</a> · <a href="https://github.com/junaiddshaukat/tkntracker">Source ↗</a></sub>
+<sub>🟢 <!--stat:tkntracker_npm-->233<!--/stat--> npm downloads · <a href="https://www.npmjs.com/package/tkntracker">npm ↗</a> · <a href="https://github.com/junaiddshaukat/tkntracker">Source ↗</a></sub>
 
 </td>
 </tr>
