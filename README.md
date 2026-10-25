@@ -1,6 +1,6 @@
 ### Hey, I'm Junaid
 
-I build AI products and developer tools, contribute to open source, and run developer communities. Final-year CS student in Lahore. Google Summer of Code 2026 with Apache Beam, Kubernetes v1.37 release team, Qwen ambassador.
+I build AI products and developer tools, contribute to open source, and run developer communities. Google Summer of Code 2026 with Apache Beam, Kubernetes v1.37 release team, Qwen ambassador.
 
 [Website](https://junaidshaukat.com) · [LinkedIn](https://www.linkedin.com/in/junaiddshaukat) · [X](https://x.com/junaiddshaukat) · [YouTube](https://www.youtube.com/@junaiddshaukat) · [Email](mailto:junaidshaukat546@gmail.com)
 
