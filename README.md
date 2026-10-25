@@ -1,6 +1,8 @@
-### I build software people use. Most of it is open source.
+### Hey, I'm Junaid
 
-AI engineer in Pakistan. I ship products, contribute upstream, and run developer communities offline. Before this I wrote the problems that train frontier models at Turing.
+I build AI products and developer tools, contribute to open source, and run developer communities. Final-year CS student in Lahore. Google Summer of Code 2026 with Apache Beam, Kubernetes v1.37 release team, Qwen ambassador.
+
+[Website](https://junaidshaukat.com) · [LinkedIn](https://www.linkedin.com/in/junaiddshaukat) · [X](https://x.com/junaiddshaukat) · [YouTube](https://www.youtube.com/@junaiddshaukat) · [Email](mailto:junaidshaukat546@gmail.com)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
@@ -8,78 +10,56 @@ AI engineer in Pakistan. I ship products, contribute upstream, and run developer
   <img alt="Open-source numbers, refreshed daily from the GitHub and npm APIs" src="./assets/stats-light.svg" width="100%">
 </picture>
 
-## Things I've shipped
-
-Every one of these is live somewhere you can reach it: a store listing, a repo, or a working site.
+## Things I built
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**[blyn](https://apps.apple.com/us/app/blyn-ai-money-coach/id6799817602)** &nbsp;<sub>`iOS app`</sub>
+**[isDisposable](https://isdisposable.com)** &nbsp;<sub>`API + SDKs`</sub>
 
-An AI money coach that runs on your phone instead of someone else's server. It reads your spending, holds category limits, and tells you what's left. The data never leaves the device.
+Throwaway email detection. 160,000 known domains, live DNS checks and a risk score, with offline SDKs for npm and PyPI.
 
-<sub>🟢 Live on the App Store · <a href="https://apps.apple.com/us/app/blyn-ai-money-coach/id6799817602">App Store ↗</a></sub>
+<sub><!--stat:isdisposable_npm-->75.9k<!--/stat--> npm downloads · [Website](https://isdisposable.com) · [SDK](https://github.com/isdisposable/js)</sub>
 
 </td>
 <td width="50%" valign="top">
 
 **[Divisio](https://github.com/junaiddshaukat/Divisio)** &nbsp;<sub>`macOS app`</sub>
 
-Claude Code, Codex, Cursor, Grok and five more agents in one window. Each gets its own git worktree, sessions stay warm (1.5s to first token, down from 5.9s), and nothing lands until you've read the diff.
+Claude Code, Codex, Cursor, Grok and more in one window. Each agent gets its own git worktree, and nothing lands until you've read the diff.
 
-<sub>🟢 Open source, MIT · <a href="https://github.com/junaiddshaukat/Divisio/releases/latest">Download ↗</a> · <a href="https://junaidshaukat.com/divisio">Website ↗</a></sub>
+<sub>Open source, MIT · [Download](https://github.com/junaiddshaukat/Divisio/releases/latest) · [Website](https://junaidshaukat.com/divisio)</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**[isDisposable](https://isdisposable.com)** &nbsp;<sub>`API + SDKs`</sub>
+**[blyn](https://apps.apple.com/us/app/blyn-ai-money-coach/id6799817602)** &nbsp;<sub>`iOS app`</sub>
 
-Throwaway email detection. 160,000 domains, live DNS checks, a risk score. There's an API, plus offline SDKs for npm and PyPI for when you can't make a network call.
+An AI money coach that runs on your phone. It tracks spending against category limits and tells you what's left. Your data never leaves the device.
 
-<sub>🟢 <!--stat:isdisposable_npm-->75.9k<!--/stat--> npm downloads · <a href="https://isdisposable.com">Website ↗</a> · <a href="https://github.com/isdisposable/js">SDK ↗</a></sub>
+<sub>Live on the App Store · [App Store](https://apps.apple.com/us/app/blyn-ai-money-coach/id6799817602)</sub>
 
 </td>
 <td width="50%" valign="top">
 
 **[tkntracker](https://github.com/junaiddshaukat/tkntracker)** &nbsp;<sub>`CLI`</sub>
 
-Run `tkntracker web` and see how many tokens you burn across Claude Code, Codex, Cursor, Grok, OpenCode and 19 more agents. It reads local logs only. No account, no API keys.
+See the tokens you burn across Claude Code, Codex, Cursor and 20 more agents. Reads local logs only. No account, no API keys.
 
-<sub>🟢 <!--stat:tkntracker_npm-->268<!--/stat--> npm downloads · <a href="https://www.npmjs.com/package/tkntracker">npm ↗</a> · <a href="https://github.com/junaiddshaukat/tkntracker">Source ↗</a></sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Storage Sweep](https://junaidshaukat.com/storage-sweep)** &nbsp;<sub>`macOS app`</sub>
-
-A native SwiftUI cleaner. It scans Docker, Xcode, Node, Python, Rust and Go caches, labels everything Safe, Review or Protected, and only ever moves the safe ones to Trash.
-
-<sub>🟢 Freed 25–90 GB per user · <a href="https://junaidshaukat.com/storage-sweep">Download ↗</a> · <a href="https://github.com/junaiddshaukat/StorageSweep">Source ↗</a></sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[reqcraft](https://github.com/junaiddshaukat/reqcraft)** &nbsp;<sub>`npm package`</sub>
-
-A 3 kB HTTP client on native `fetch` with the axios API: interceptors, retries, typed errors, zero dependencies. I wrote it the week the axios supply-chain attack landed.
-
-<sub>🟢 Zero dependencies · <a href="https://github.com/junaiddshaukat/reqcraft">Source ↗</a> · <a href="https://junaidshaukat.com/blog/building-axios-alternative-zero-dependencies">The story ↗</a></sub>
+<sub><!--stat:tkntracker_npm-->268<!--/stat--> npm downloads · [npm](https://www.npmjs.com/package/tkntracker)</sub>
 
 </td>
 </tr>
 </table>
 
-**Also:** [QueryMaster](https://github.com/junaiddshaukat/querymaster), an MCP server for querying SQL in plain English · [revise-deps](https://www.npmjs.com/package/revise-deps), a dependency audit CLI · [GitHub Issue Reminder](https://chromewebstore.google.com/detail/github-issue-reminder/ddiaekdhnodoldfmdnpkcbdonhmimdbo), a Chrome extension. [Every project →](https://junaidshaukat.com/projects)
+Also: [Storage Sweep](https://junaidshaukat.com/storage-sweep), a macOS cleaner for developer caches · [reqcraft](https://github.com/junaiddshaukat/reqcraft), a 3 kB axios-compatible client on `fetch` · [QueryMaster](https://github.com/junaiddshaukat/querymaster), an MCP server for SQL in plain English. [All projects](https://junaidshaukat.com/projects)
 
 ## Open source
 
-Rebuilt every day from the GitHub API, so nothing here is typed by hand.
+<!--stat:merged-->87<!--/stat--> merged PRs to projects I don't own. This table rebuilds daily from the GitHub API.
 
 <!--oss:start-->
 
@@ -104,42 +84,25 @@ Rebuilt every day from the GitHub API, so nothing here is typed by hand.
 
 ## Community
 
-- **Qwen Ambassador.** Founded Qwen Pakistan from an empty page: 3,000+ followers in week one, then an AI Buildathon.
-- **RevenueCat Shipaton IRL.** Asked RevenueCat to host Pakistan's first one. 43 signed up, about 30 walked in.
-- **Dev Weekends.** Mentor a weekly cohort of ~40 through open source and AI engineering.
-- **Notion Campus Club.** Campus Leader for a year.
+- **Qwen Ambassador.** Started Qwen Pakistan from scratch. 3,000+ followers and 250K+ impressions in the first week, then the AI Buildathon 2026.
+- **RevenueCat Shipaton IRL.** Hosted the first in-person Shipaton in Pakistan. 43 signed up.
+- **Replit Campus Leader.** Before that, Notion Campus Leader for a year.
+- **Dev Weekends.** Internal operations, fellowships, mentorship, and a weekly cohort of 40 engineers.
 
-## Receipts
+## Recognition
 
-- 🏆 **Winner**, Cognee AI PR hackathon
-- 🥈 **2nd place**, InsForge PR hackathon, then stayed on as a contributor
-- ☀️ **Google Summer of Code 2026**, Apache Software Foundation · [project page](https://summerofcode.withgoogle.com/programs/2026/projects/x13a0jGL)
-- ☸️ **Kubernetes Release Team**, Release Signal Shadow for v1.37
-- 🧮 **Meta Hacker Cup 2024**, top 100 in Pakistan
-- 🐧 **Linux Foundation LFD103**, kernel development
+- Google Summer of Code 2026, Apache Software Foundation · [project](https://summerofcode.withgoogle.com/programs/2026/projects/x13a0jGL)
+- Kubernetes v1.37 release team, Release Signal Shadow
+- Winner, Cognee AI PR hackathon
+- 2nd place, InsForge PR hackathon
+- Top 100 in Pakistan, Meta Hacker Cup 2024
 
 ## Writing
 
-📘 **[LLM Engineering](https://junaidshaukat.com/courses/llm-engineering)**, a free 17-lesson course, from what an LLM is to fine-tuning, serving, RAG, agents and evals.
+**[LLM Engineering](https://junaidshaukat.com/courses/llm-engineering)** is a free 17-lesson course, from what an LLM is to fine-tuning, serving, RAG, agents and evals.
 
+- [The Second Run](https://junaidshaukat.com/blog/the-second-run)
 - [How to Train a Small LLM Without Burning Money](https://junaidshaukat.com/blog/how-to-train-a-small-llm-without-burning-money)
 - [More Context Is Making Your AI Dumber](https://junaidshaukat.com/blog/more-context-is-making-your-ai-dumber)
-- [Agentic Loop Engineering: The Missing Infra Layer](https://junaidshaukat.com/blog/agentic-loop-engineering-missing-infra-layer)
 
-<sub>[All posts →](https://junaidshaukat.com/blog)</sub>
-
-## Stack
-
-<img alt="TypeScript, Python, Java, Go, C++, Swift, Node.js, Bun, PostgreSQL, MongoDB, Redis, Kafka, Supabase, Docker, Kubernetes, AWS, GCP, Linux, React, Next.js, Tailwind" src="https://skillicons.dev/icons?i=ts,py,java,go,cpp,swift,nodejs,bun,postgres,mongodb,redis,kafka,supabase,docker,kubernetes,aws,gcp,linux,react,nextjs,tailwind&perline=11">
-
-**AI:** LLM APIs, MCP, tool calling, agent loops, LangGraph, RAG, pgvector, evals, LoRA / QLoRA, vLLM, Ollama.
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/junaiddshaukat/junaiddshaukat/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/junaiddshaukat/junaiddshaukat/output/snake-light.svg">
-  <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/junaiddshaukat/junaiddshaukat/output/snake-light.svg" width="100%">
-</picture>
-
-**Say hi:** [Email](mailto:junaidshaukat546@gmail.com) · [X](https://x.com/junaiddshaukat) · [Blog](https://junaidshaukat.com/blog) · [YouTube](https://www.youtube.com/@junaiddshaukat)
+[All posts](https://junaidshaukat.com/blog)
