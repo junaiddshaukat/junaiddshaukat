@@ -20,7 +20,7 @@ I build AI products and developer tools, contribute to open source, and run deve
 
 Throwaway email detection. 160,000 known domains, live DNS checks and a risk score, with offline SDKs for npm and PyPI.
 
-<sub><!--stat:isdisposable_npm-->75.9k<!--/stat--> npm downloads · [Website](https://isdisposable.com) · [SDK](https://github.com/isdisposable/js)</sub>
+<sub><!--stat:isdisposable_npm-->78.3k<!--/stat--> npm downloads · [Website](https://isdisposable.com) · [SDK](https://github.com/isdisposable/js)</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -49,7 +49,7 @@ An AI money coach that runs on your phone. It tracks spending against category l
 
 See the tokens you burn across Claude Code, Codex, Cursor and 20 more agents. Reads local logs only. No account, no API keys.
 
-<sub><!--stat:tkntracker_npm-->268<!--/stat--> npm downloads · [npm](https://www.npmjs.com/package/tkntracker)</sub>
+<sub><!--stat:tkntracker_npm-->270<!--/stat--> npm downloads · [npm](https://www.npmjs.com/package/tkntracker)</sub>
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Also: [Storage Sweep](https://junaidshaukat.com/storage-sweep), a macOS cleaner 
 
 ## Open source
 
-<!--stat:merged-->88<!--/stat--> merged PRs to projects I don't own. This table rebuilds daily from the GitHub API.
+<!--stat:merged-->89<!--/stat--> merged PRs to projects I don't own. This table rebuilds daily from the GitHub API.
 
 <!--oss:start-->
 
@@ -67,7 +67,7 @@ Also: [Storage Sweep](https://junaidshaukat.com/storage-sweep), a macOS cleaner 
 | :-: | :-- | :-: | :-- |
 | <img src="https://github.com/apache.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/apache/beam"><b>Apache&nbsp;Beam</b></a> | [43](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3Aapache%2Fbeam) | Wrote the portable Kafka Streams runner, so pipelines from any Beam SDK run on Kafka Streams. Ships in the nightly snapshots. |
 | <img src="https://github.com/InsForge.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/InsForge/InsForge"><b>InsForge</b></a> | [12](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3AInsForge%2FInsForge%20repo%3AInsForge%2FInsForge-sdk-js%20repo%3AInsForge%2Finsforge-swift%20repo%3AInsForge%2Finsforge-kotlin) | Custom OAuth providers end to end, then carried into the JS, Swift and Kotlin SDKs. Signup controls, PostgREST operators for Kotlin, dashboard fixes. |
-| <img src="https://github.com/devweekends.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/devweekends/web-platform"><b>Dev&nbsp;Weekends</b></a> | [7](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3Adevweekends%2Fweb-platform) | The community platform. Careers, projects and testimonials pages, a security cleanup, and a self-hosted links page. |
+| <img src="https://github.com/devweekends.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/devweekends/web-platform"><b>Dev&nbsp;Weekends</b></a> | [8](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3Adevweekends%2Fweb-platform) | The community platform. Careers, projects and testimonials pages, a security cleanup, and a self-hosted links page. |
 | <img src="https://github.com/archestra-ai.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/archestra-ai/archestra"><b>Archestra</b></a> | [6](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3Aarchestra-ai%2Farchestra) | Enterprise MCP gateway. Added the Mistral, Cerebras, DeepSeek and Perplexity providers, and fixed Kubernetes service names for long MCP server names. |
 | <img src="https://github.com/PalisadoesFoundation.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/PalisadoesFoundation/talawa-admin"><b>Talawa&nbsp;Admin</b></a> | [6](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3APalisadoesFoundation%2Ftalawa-admin) | Built the i18n notification toast and moved the app onto it. Turned on advanced tree-shaking in Vite; the bundle got 30% smaller. |
 | <img src="https://github.com/apache.png?size=64" width="20" height="20" alt=""> | <a href="https://github.com/apache/airflow"><b>Apache&nbsp;Airflow</b></a> | [3](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3Ajunaiddshaukat%20repo%3Aapache%2Fairflow) | Fixed user creation in the FAB auth manager when no role is given. E2E tests for Asset Details. |
