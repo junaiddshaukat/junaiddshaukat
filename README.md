@@ -20,7 +20,7 @@ I build AI products and developer tools, contribute to open source, and run deve
 
 Throwaway email detection. 160,000 known domains, live DNS checks and a risk score, with offline SDKs for npm and PyPI.
 
-<sub><!--stat:isdisposable_npm-->78.3k<!--/stat--> npm downloads · [Website](https://isdisposable.com) · [SDK](https://github.com/isdisposable/js)</sub>
+<sub><!--stat:isdisposable_npm-->79.3k<!--/stat--> npm downloads · [Website](https://isdisposable.com) · [SDK](https://github.com/isdisposable/js)</sub>
 
 </td>
 <td width="50%" valign="top">
