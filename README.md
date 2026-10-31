@@ -20,7 +20,7 @@ I build AI products and developer tools, contribute to open source, and run deve
 
 Throwaway email detection. 160,000 known domains, live DNS checks and a risk score, with offline SDKs for npm and PyPI.
 
-<sub><!--stat:isdisposable_npm-->81.1k<!--/stat--> npm downloads · [Website](https://isdisposable.com) · [SDK](https://github.com/isdisposable/js)</sub>
+<sub><!--stat:isdisposable_npm-->82.1k<!--/stat--> npm downloads · [Website](https://isdisposable.com) · [SDK](https://github.com/isdisposable/js)</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -49,7 +49,7 @@ An AI money coach that runs on your phone. It tracks spending against category l
 
 See the tokens you burn across Claude Code, Codex, Cursor and 20 more agents. Reads local logs only. No account, no API keys.
 
-<sub><!--stat:tkntracker_npm-->273<!--/stat--> npm downloads · [npm](https://www.npmjs.com/package/tkntracker)</sub>
+<sub><!--stat:tkntracker_npm-->274<!--/stat--> npm downloads · [npm](https://www.npmjs.com/package/tkntracker)</sub>
 
 </td>
 </tr>
