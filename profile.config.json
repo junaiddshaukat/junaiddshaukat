@@ -1,0 +1,441 @@
+{
+  "user": "junaiddshaukat",
+  "profile": {
+    "name": "junaid shaukat",
+    "status": "building",
+    "site": "junaidshaukat.com",
+    "siteUrl": "https://junaidshaukat.com",
+    "intro": "I build AI products and developer tools, contribute to open source, and run developer communities.",
+    "facts": [
+      {
+        "label": "now",
+        "value": "devrel + ai engineering"
+      },
+      {
+        "label": "based",
+        "value": "lahore, pakistan"
+      }
+    ],
+    "stats": [
+      {
+        "label": "merged prs",
+        "value": "{merged}",
+        "sub": "to projects I don't own"
+      },
+      {
+        "label": "npm downloads",
+        "value": "{npmTotal}",
+        "sub": "across my packages"
+      },
+      {
+        "label": "gsoc 2026",
+        "value": "apache beam",
+        "sub": "kafka streams runner"
+      },
+      {
+        "label": "kubernetes",
+        "value": "v1.37",
+        "sub": "release team"
+      }
+    ]
+  },
+  "featured": [
+    {
+      "name": "isDisposable",
+      "kind": "api + sdks",
+      "url": "https://isdisposable.com",
+      "host": "isdisposable.com",
+      "cta": "Visit project",
+      "description": "Throwaway email detection. 160,000 known domains, live DNS checks and a risk score, with offline SDKs for npm and PyPI.",
+      "banner": {
+        "type": "code",
+        "logo": "profile/assets/isdisposable.png",
+        "glow": [
+          "#1b1d3a",
+          "#2b2f6b",
+          "#4347a8",
+          "#6366f1"
+        ],
+        "lines": [
+          [
+            [
+              "k",
+              "import"
+            ],
+            [
+              "p",
+              " { isDisposable } "
+            ],
+            [
+              "k",
+              "from"
+            ],
+            [
+              "s",
+              " '@isdisposable/js'"
+            ],
+            [
+              "p",
+              ";"
+            ]
+          ],
+          [],
+          [
+            [
+              "f",
+              "isDisposable"
+            ],
+            [
+              "p",
+              "("
+            ],
+            [
+              "s",
+              "'test@mailinator.com'"
+            ],
+            [
+              "p",
+              ");"
+            ],
+            [
+              "c",
+              " // true"
+            ]
+          ],
+          [
+            [
+              "f",
+              "isDisposable"
+            ],
+            [
+              "p",
+              "("
+            ],
+            [
+              "s",
+              "'user@gmail.com'"
+            ],
+            [
+              "p",
+              ");     "
+            ],
+            [
+              "c",
+              " // false"
+            ]
+          ]
+        ],
+        "label": "@isdisposable/js"
+      },
+      "meta": [
+        {
+          "label": "npm downloads",
+          "value": "{npm:@isdisposable/js}"
+        },
+        {
+          "label": "domains",
+          "value": "160k+"
+        },
+        {
+          "label": "works",
+          "value": "offline"
+        }
+      ]
+    },
+    {
+      "name": "Divisio",
+      "kind": "macos app",
+      "repo": "junaiddshaukat/Divisio",
+      "url": "https://junaidshaukat.com/divisio",
+      "host": "junaidshaukat.com/divisio",
+      "cta": "Download",
+      "description": "Claude Code, Codex, Cursor and Grok in one window. Each agent gets its own git worktree, and nothing lands until you read the diff.",
+      "banner": {
+        "type": "image",
+        "src": "profile/assets/divisio.jpg"
+      },
+      "meta": [
+        {
+          "label": "language",
+          "value": "{language}"
+        },
+        {
+          "label": "license",
+          "value": "MIT"
+        },
+        {
+          "label": "updated",
+          "value": "{updated}"
+        }
+      ]
+    },
+    {
+      "name": "blyn",
+      "kind": "ios app",
+      "url": "https://apps.apple.com/us/app/blyn-ai-money-coach/id6799817602",
+      "host": "app store",
+      "cta": "App Store",
+      "description": "An AI money coach that runs on your phone. It tracks spending against category limits and tells you what's left.",
+      "banner": {
+        "type": "icon",
+        "src": "profile/assets/blyn-icon.png",
+        "caption": "ai money coach · runs on-device",
+        "glow": [
+          "#1a1b1d",
+          "#2a2c30",
+          "#3e4147",
+          "#5b5f67"
+        ]
+      },
+      "meta": [
+        {
+          "label": "platform",
+          "value": "iOS"
+        },
+        {
+          "label": "your data",
+          "value": "on-device"
+        },
+        {
+          "label": "status",
+          "value": "live"
+        }
+      ]
+    },
+    {
+      "name": "tkntracker",
+      "kind": "cli",
+      "repo": "junaiddshaukat/tkntracker",
+      "url": "https://github.com/junaiddshaukat/tkntracker",
+      "host": "npm i -g tkntracker",
+      "cta": "View source",
+      "description": "See the tokens you burn across Claude Code, Codex, Cursor and 20 more agents. Reads local logs only. No account, no API keys.",
+      "banner": {
+        "type": "terminal",
+        "glow": [
+          "#2a1a0c",
+          "#4a2a0e",
+          "#7a4310",
+          "#b8640f"
+        ],
+        "lines": [
+          [
+            [
+              "c",
+              "$ "
+            ],
+            [
+              "p",
+              "npm i -g tkntracker"
+            ]
+          ],
+          [
+            [
+              "c",
+              "$ "
+            ],
+            [
+              "p",
+              "tkntracker web"
+            ]
+          ],
+          [
+            [
+              "s",
+              "  synced 24 tools"
+            ]
+          ],
+          [
+            [
+              "s",
+              "  dashboard → 127.0.0.1:7777"
+            ]
+          ]
+        ]
+      },
+      "meta": [
+        {
+          "label": "npm downloads",
+          "value": "{npm:tkntracker}"
+        },
+        {
+          "label": "tools",
+          "value": "24"
+        },
+        {
+          "label": "runs on",
+          "value": "mac · linux · win"
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "projects": [
+      {
+        "name": "Apache Beam",
+        "owner": "apache",
+        "repos": [
+          "apache/beam"
+        ],
+        "note": "Wrote the portable Kafka Streams runner, so pipelines from any Beam SDK run on Kafka Streams. Ships in the nightly snapshots."
+      },
+      {
+        "name": "InsForge",
+        "owner": "InsForge",
+        "repos": [
+          "InsForge/InsForge",
+          "InsForge/InsForge-sdk-js",
+          "InsForge/insforge-swift",
+          "InsForge/insforge-kotlin"
+        ],
+        "note": "Custom OAuth providers end to end, then carried into the JS, Swift and Kotlin SDKs."
+      },
+      {
+        "name": "Archestra",
+        "owner": "archestra-ai",
+        "repos": [
+          "archestra-ai/archestra"
+        ],
+        "note": "Added the Mistral, Cerebras, DeepSeek and Perplexity providers to the MCP gateway."
+      },
+      {
+        "name": "Talawa Admin",
+        "owner": "PalisadoesFoundation",
+        "repos": [
+          "PalisadoesFoundation/talawa-admin"
+        ],
+        "note": "Built the i18n notification toast. Tree-shaking in Vite made the bundle 30% smaller."
+      },
+      {
+        "name": "Dev Weekends",
+        "owner": "devweekends",
+        "repos": [
+          "devweekends/web-platform"
+        ],
+        "note": "The community platform. Careers, projects and testimonials pages, and a security cleanup."
+      },
+      {
+        "name": "Apache Airflow",
+        "owner": "apache",
+        "repos": [
+          "apache/airflow"
+        ],
+        "note": "Fixed user creation in the FAB auth manager. E2E tests for Asset Details."
+      },
+      {
+        "name": "voiceyBill",
+        "owner": "voiceyBill",
+        "repos": [
+          "voiceyBill/voiceyBill-App",
+          "voiceyBill/voiceyBill-web"
+        ],
+        "note": "UI and auth overhauls across the mobile app and the web client."
+      },
+      {
+        "name": "Gemini CLI",
+        "owner": "google-gemini",
+        "repos": [
+          "google-gemini/gemini-cli"
+        ],
+        "note": "Custom base URLs through env vars, and stricter audio MIME checks."
+      },
+      {
+        "name": "webpack",
+        "owner": "webpack",
+        "repos": [
+          "webpack/webpack"
+        ],
+        "note": "Merged two property utils into one module. Config coverage for Electron."
+      },
+      {
+        "name": "Cognee",
+        "owner": "topoteretes",
+        "repos": [
+          "topoteretes/cognee"
+        ],
+        "note": "Won their PR hackathon with an incremental Gmail connector."
+      },
+      {
+        "name": "Jaeger",
+        "owner": "jaegertracing",
+        "repos": [
+          "jaegertracing/jaeger"
+        ],
+        "note": "Timer duration bucket parsing in the metrics init."
+      }
+    ],
+    "extra": [
+      {
+        "name": "Linux kernel",
+        "logo": "profile/assets/logos/linux.png",
+        "count": "patches",
+        "note": "Mainline on ARM64, patches sent the old way with git send-email."
+      }
+    ]
+  },
+  "community": [
+    {
+      "title": "Qwen Ambassador",
+      "detail": "Started Qwen Pakistan from scratch. 3,000+ followers and 250K+ impressions in the first week, then the AI Buildathon 2026.",
+      "logo": "profile/assets/logos/qwen.jpg",
+      "tile": "#EEF1FD"
+    },
+    {
+      "title": "Host, RevenueCat Shipaton IRL",
+      "detail": "The first in-person Shipaton in Pakistan. 43 signed up.",
+      "logo": "profile/assets/logos/revenuecat-app-icon.svg",
+      "tile": "#F2545B"
+    },
+    {
+      "title": "Replit Campus Leader",
+      "detail": "Before that, Notion Campus Leader for a year.",
+      "logo": "profile/assets/logos/replit-symbol-white.svg",
+      "tile": "#FF3C00",
+      "inset": 0.6
+    },
+    {
+      "title": "Dev Weekends",
+      "detail": "Internal operations, fellowships, mentorship, and a weekly cohort of 40 engineers.",
+      "logo": "profile/assets/logos/devweekends.png",
+      "tile": "#000000"
+    }
+  ],
+  "writing": {
+    "feed": "https://junaidshaukat.com/rss.xml",
+    "url": "https://junaidshaukat.com/blog",
+    "pinned": {
+      "title": "LLM Engineering",
+      "detail": "a free 17-lesson course",
+      "url": "https://junaidshaukat.com/courses/llm-engineering"
+    },
+    "count": 3
+  },
+  "links": [
+    {
+      "label": "website",
+      "url": "https://junaidshaukat.com"
+    },
+    {
+      "label": "linkedin",
+      "url": "https://www.linkedin.com/in/junaiddshaukat"
+    },
+    {
+      "label": "x",
+      "url": "https://x.com/junaiddshaukat"
+    },
+    {
+      "label": "youtube",
+      "url": "https://www.youtube.com/@junaiddshaukat"
+    },
+    {
+      "label": "email",
+      "url": "mailto:junaidshaukat546@gmail.com"
+    }
+  ],
+  "npmPackages": [
+    "@isdisposable/js",
+    "tkntracker",
+    "reqcraft",
+    "revise-deps"
+  ]
+}

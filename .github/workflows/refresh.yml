@@ -1,15 +1,26 @@
-name: Refresh stats
+name: Refresh profile
 
-# Rebuilds the stats card and the open-source table from live GitHub and npm
-# data, so no number on the profile is typed by hand.
+# Rebuilds the profile panels and README from profile.config.json plus live
+# GitHub, npm and blog data, so no number on the profile is typed by hand.
 
 on:
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - profile.config.json
+      - scripts/build-profile.mjs
+      - fonts/**
+      - profile/assets/**
 
 permissions:
   contents: write
+
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: true
 
 jobs:
   refresh:
@@ -22,18 +33,18 @@ jobs:
         with:
           node-version: 22
 
-      - run: node scripts/refresh.mjs
+      - run: node scripts/build-profile.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit if anything changed
         run: |
-          if git diff --quiet; then
+          git add README.md profile
+          if git diff --cached --quiet; then
             echo "Nothing changed."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "chore: refresh stats"
+          git commit -m "chore: refresh profile"
           git push
