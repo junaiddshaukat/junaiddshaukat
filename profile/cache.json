@@ -1,6 +1,6 @@
 {
   "counts": {
-    "devweekends/web-platform": 14,
+    "devweekends/web-platform": 16,
     "apache/beam": 43,
     "topoteretes/cognee": 1,
     "InsForge/InsForge": 6,
@@ -18,10 +18,10 @@
     "apache/airflow": 3,
     "dailydotdev/apps": 1
   },
-  "npm:@isdisposable/js": 88929,
-  "npm:tkntracker": 281,
-  "npm:reqcraft": 139,
-  "npm:revise-deps": 354,
+  "npm:@isdisposable/js": 119616,
+  "npm:tkntracker": 299,
+  "npm:reqcraft": 157,
+  "npm:revise-deps": 365,
   "repo:junaiddshaukat/Divisio": {
     "language": "TypeScript",
     "stars": 0,
