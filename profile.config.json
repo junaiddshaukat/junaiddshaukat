@@ -71,7 +71,9 @@
           "label": "price",
           "value": "once"
         }
-      ]
+      ],
+      "line": "Every inbox in one native Mac app. Pay once.",
+      "icon": "profile/assets/glassmail.png"
     },
     {
       "name": "Taskglass",
@@ -104,7 +106,9 @@
           "label": "history",
           "value": "30 days"
         }
-      ]
+      ],
+      "line": "Which app is making your Mac slow, hot, or loud.",
+      "icon": "profile/assets/taskglass.png"
     },
     {
       "name": "isDisposable",
@@ -206,7 +210,9 @@
           "label": "works",
           "value": "offline"
         }
-      ]
+      ],
+      "line": "Throwaway email detection. Works offline.",
+      "icon": "profile/assets/isdisposable.png"
     },
     {
       "name": "Divisio",
@@ -233,7 +239,10 @@
           "label": "updated",
           "value": "{updated}"
         }
-      ]
+      ],
+      "line": "Claude Code, Codex and Cursor, side by side.",
+      "icon": "profile/assets/divisio-mark.png",
+      "iconTile": "#000000"
     }
   ],
   "openSource": {
@@ -345,26 +354,34 @@
       "title": "Qwen Ambassador",
       "detail": "Started Qwen Pakistan from scratch. 3,000+ followers and 250K+ impressions in the first week, then the AI Buildathon 2026.",
       "logo": "profile/assets/logos/qwen.jpg",
-      "tile": "#EEF1FD"
+      "tile": "#EEF1FD",
+      "url": "https://qwen.ai",
+      "line": "Started Qwen Pakistan, then the AI Buildathon."
     },
     {
       "title": "Host, RevenueCat Shipaton IRL",
       "detail": "The first in-person Shipaton in Pakistan. 43 signed up.",
       "logo": "profile/assets/logos/revenuecat-app-icon.svg",
-      "tile": "#F2545B"
+      "tile": "#F2545B",
+      "url": "https://www.revenuecat.com",
+      "line": "The first in-person Shipaton in Pakistan."
     },
     {
       "title": "Replit Campus Leader",
       "detail": "Before that, Notion Campus Leader for a year.",
       "logo": "profile/assets/logos/replit-symbol-white.svg",
       "tile": "#FF3C00",
-      "inset": 0.6
+      "inset": 0.6,
+      "url": "https://replit.com",
+      "line": "Campus leader now. Notion the year before."
     },
     {
       "title": "Dev Weekends",
       "detail": "Internal operations, fellowships, mentorship, and a weekly cohort of 40 engineers.",
       "logo": "profile/assets/logos/devweekends.png",
-      "tile": "#000000"
+      "tile": "#000000",
+      "url": "https://devweekends.com",
+      "line": "Ops, fellowships, and a cohort of 40."
     }
   ],
   "writing": {
