@@ -18,10 +18,10 @@
     "apache/airflow": 3,
     "dailydotdev/apps": 1
   },
-  "npm:@isdisposable/js": 119616,
+  "npm:@isdisposable/js": 121051,
   "npm:tkntracker": 299,
   "npm:reqcraft": 157,
-  "npm:revise-deps": 365,
+  "npm:revise-deps": 367,
   "repo:junaiddshaukat/Divisio": {
     "language": "TypeScript",
     "stars": 0,
