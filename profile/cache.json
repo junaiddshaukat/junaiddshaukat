@@ -18,7 +18,7 @@
     "apache/airflow": 3,
     "dailydotdev/apps": 1
   },
-  "npm:@isdisposable/js": 121051,
+  "npm:@isdisposable/js": 122670,
   "npm:tkntracker": 299,
   "npm:reqcraft": 157,
   "npm:revise-deps": 367,
